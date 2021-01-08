@@ -93,3 +93,11 @@ for (let i = 0; i <= 100; i++) {
     console.log(i);  
 }
 
+// Data Types
+let yourAge = 18; // Number
+let yourName = 'Somu'; // string
+let name = {first: 'Jane', last: 'Doe'}; // object
+let truth = false; // boolean
+let groceries = ['apple', 'banana', 'oranges']; // array
+let random; // undefined
+let nothing = null; // value null
