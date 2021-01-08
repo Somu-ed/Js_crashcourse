@@ -36,3 +36,42 @@ console.log(num1 % 6);
 num1++;  // Inc
 num1--;  // Dec
 
+/* Functions
+1. Creating the functions
+2. Calling the functions
+*/
+
+// Create
+function fun() {
+    console.log('This is a function');
+}
+
+// Call 
+fun();
+
+/* Let's create a function that takes in a name
+and says Hello followed by your name
+
+for eg
+
+Name: "Somu"
+Return: "Hello Somu"
+*/
+
+function greeting(yourName) {
+    var result = 'Hello' + ' ' + yourName; // String Concatenation
+    console.log(result);
+}
+
+var name = prompt('What is your Name?');
+greeting(name);
+
+// How arguments work in a function?
+// Adding 2 numbers in a function
+
+function sumNum(num1, num2) {
+    var res = num1 + num2;
+    console.log(res);
+}
+
+sumNum(10, 21);
